@@ -10,7 +10,7 @@ import static org.mockito.Mockito.when;
 public class LineNumberTest {
 
     @Test
-    public void textComponent_getContent_returns_a_line() {
+    public void whenTextComponentGetContentReturnsOneLine() {
         TextComponent textComponent = mock(TextComponent.class);
 
         when(textComponent.getContent()).thenReturn("body1");
@@ -22,7 +22,7 @@ public class LineNumberTest {
     }
 
     @Test
-    public void textComponent_getContent_returns_two_lines() {
+    public void whenTextComponentGetContentReturnsTwoLines() {
         TextComponent textComponent = mock(TextComponent.class);
 
         when(textComponent.getContent()).thenReturn(

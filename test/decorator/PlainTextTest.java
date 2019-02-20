@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class PlainTextTest {
 
     @Test
-    public void getContent_returns_normal_string() {
+    public void whenPassToNormalStringToConstructorGetContentReturnsIt() {
         TextComponent component = new PlainText("test");
 
         assertThat(component.getContent(), is("test"));

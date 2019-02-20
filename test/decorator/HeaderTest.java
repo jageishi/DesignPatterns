@@ -10,7 +10,7 @@ import static org.mockito.Mockito.when;
 public class HeaderTest {
 
     @Test
-    public void textComponent_getContent_returns_normal_string() {
+    public void whenTextComponentGetContentReturnsNormalString() {
         TextComponent textComponent = mock(TextComponent.class);
 
         when(textComponent.getContent()).thenReturn("body");
